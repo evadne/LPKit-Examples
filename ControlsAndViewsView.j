@@ -93,6 +93,7 @@
         [aSwitch setTheme:LPAristo];
         [aSwitch setTarget:self];
         [aSwitch setAction:@selector(switchDidChange:)];
+        [aSwitch setOn:YES animated:NO];
         [self addSubview:aSwitch];
 
         switchStatusLabel = [CPTextField labelWithTitle:@"status: off"];
